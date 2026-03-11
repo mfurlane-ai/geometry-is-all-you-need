@@ -1,0 +1,26 @@
+{
+  "lattice": "9x9x9",
+  "n_nodes": 729,
+  "epochs": 250,
+  "accuracy": {
+    "no_reg": 1.0,
+    "spatial_reg": 1.0,
+    "flat": 1.0
+  },
+  "clustering_ratio": {
+    "no_reg": 1.5187,
+    "spatial_reg": 7.5183,
+    "null": 1.0
+  },
+  "sparsity_pct": {
+    "flat": 38.74,
+    "no_reg": 37.68,
+    "spatial_reg": 0.81,
+    "theoretical_bound": 4.6
+  },
+  "connections": {
+    "lattice": 1944,
+    "flat": 531441,
+    "lattice_pct_of_flat": 0.3658
+  }
+}
